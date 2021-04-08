@@ -10,11 +10,12 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "babel-plugin-import": "^1.13.3",
     "reset-css": "^5.0.1",
     "vant": "^2.12.12",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.5.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

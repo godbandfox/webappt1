@@ -13,7 +13,14 @@ export default new Router({
     {
       path: '/home',
       name: 'Home',
-      component: Home
-    }
+      component: Home,
+      children: [
+        {
+          path: '/home/searchPopup',
+          name: 'SearchPopup',
+          component: () => import('@/views/SearchPopup.vue')
+        },
+      ]
+    },
   ]
 })
