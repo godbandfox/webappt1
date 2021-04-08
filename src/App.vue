@@ -11,15 +11,22 @@ export default {
 </script>
 
 <style>
-/*#app {
+#app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}*/
-body {
-  background: #ccc;
+  background: #efefef;
+  /*最小宽度100%盒子填充满*/
+  min-height: 100%;
+  font-size: .14rem;
 }
+
+body, html {
+  height: 100%;
+}
+
+html {
+  font-size: 100px !important;
+}
+
 </style>
