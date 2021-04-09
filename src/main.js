@@ -6,6 +6,10 @@ import router from './router'
 import "@/vantui"
 import 'reset-css'
 
+//过滤器
+Vue.filter("RMBformat", val => {
+  return "¥" + val
+})
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
